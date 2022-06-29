@@ -7,7 +7,7 @@
 
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
-#import <WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.h>
+#import "WKWebViewJavascriptBridge.h"
 
 @interface ViewController () <WKNavigationDelegate>
 

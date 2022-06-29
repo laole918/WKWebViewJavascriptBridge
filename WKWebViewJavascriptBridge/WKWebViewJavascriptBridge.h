@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WKWebViewJavascriptBridge/WKWebViewJavascriptBridgeBase.h>
+#import "WKWebViewJavascriptBridgeBase.h"
 #import <WebKit/WebKit.h>
 #import <WebKit/WKScriptMessageHandler.h>
 
