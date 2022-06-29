@@ -1,5 +1,7 @@
 # WKWebViewJavascriptBridge
 
+[![CocoaPods](https://img.shields.io/cocoapods/v/WKWebViewJavascriptBridge-ObjC.svg?style=flat)](http://cocoapods.org/pods/WKWebViewJavascriptBridge-ObjC)
+
 > This project is inspired by [marcuswestin/WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge) and [Lision/WKWebViewJavascriptBridge](https://github.com/Lision/WKWebViewJavascriptBridge)!
 
 Android Java : [https://github.com/laole918/JsBridge](https://github.com/laole918/JsBridge)
@@ -70,6 +72,14 @@ setupWKWebViewJavascriptBridge(function(bridge) {
 ```
 
 # Installation
+
+### Cocoapods
+
+1. Add `pod 'WKWebViewJavascriptBridge-ObjC', '~> 1.0.0'` to your Podfile.
+2. Run `pod install` or `pod update`.
+3. Add `#import "WKWebViewJavascriptBridge.h"`.
+
+### Manually
 
 Either clone the repo and manually add the Files in [WKWebViewJavascriptBridge](https://github.com/laole918/WKWebViewJavascriptBridge/tree/main/WKWebViewJavascriptBridge).
 
